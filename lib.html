@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lib</title>
+	<link rel="stylesheet" type="text/css" href="css/lib.css">
+	<script type="text/javascript" src="lib.js"></script>
+</head>
+<body>
+	<div>
+		<h1>BOOK LIBRARY</h1>
+	</div>
+	<div class="all">
+
+	<div class="body">
+	Book Name:<br>
+	 <input type="text" id="firstone"  required="required"><br><br>
+	 Author Name:<br>
+	<input type="text" id="secondone"  required="required"><br><br>
+	Pages of Book: <br>
+	<input type="text" id="thirdone" required="required"><br><br>
+		<input type="file" id="fourthone" required="required">
+		<br>
+		upload book here, must be in PDF format
+		<br><br>
+	<button onclick="myAdd()" onmouseout="myclean()">Add Book</button>
+</div>
+<div>
+<button  class="check"onclick="myview(event)">Check for Available book here</button>
+<table border="1px solid red" class="rr"> 
+	<thead style="background-color: blue; color: white">
+		<tr>
+		<th> Book Name </th>
+		<th> Author Name </th>
+		<th> Pages</th>
+	</tr>
+	</thead>
+	<tbody id="tt">
+
+	</tbody>
+	
+</table>
+</div>
+</div>
+<br><br><br>
+<div class="sub-footer">
+	<p class="p1"><img src="image/loc.png" width="20px"><br>
+		<h6>SQI College of ICT<br>Adenike Area, Ogbomoso</h6>
+	</p>
+	<p class="p2"><img src="image/g.png" width="20"><br>
+		<h6>johnsonadelere.29@gmail.com</h6>
+	</p>
+	<p class="p3"><img src="image/link.png" width="20px"><br>
+		<h6>Adegboye Johnson Adelere</h6>
+	</p>
+</div>
+<div class="footer">
+<h4>Developed by Johnson &copy 2019</h4>
+</div>
+
+</body>
+</html>

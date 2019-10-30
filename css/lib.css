@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	background: blue;
+	background: url('../image/p9.jpg'); 
+	background-size:cover;
+	opacity: 10;
+}
+h1{
+	background: white;
+	width: 300px;
+	color: #A40088;
+	margin-left: 200px;
+}
+.all {
+	color: blue;
+    display: flex;
+	margin-left: 60px;
+	justify-content: space-between;
+	margin-right: 30px;
+	opacity: none;
+
+}
+table {
+	background: red; 
+	border-color: red;
+	color: white;
+	outline: 4px;
+	outline-color: red;
+}
+.body {
+	font-family: sans-serif;
+	font-style: oblique;
+	text-shadow: 1px 1px 6px red;
+	font-weight: bold;
+	color:#fff;
+	font-size: 15px;
+	font-weight: 40;
+}
+
+.body  input{
+	background: #F1F1F1;
+	color: red;
+	outline: none;
+	border: none;
+	border-bottom: 3px solid blue;
+	width: 200px;
+	height: 40px;
+}
+
+input:hover{
+	opacity: 0.8;
+}
+button{
+	width: 200px;
+	height: 40px;
+	border: none;
+	background: red;
+	color: white;
+	cursor: pointer;
+}
+
+button:focus{
+	background: black;
+}
+
+button:hover{
+	/*background: grey;*/
+	-webkit-transition-duration: 0.4s; 
+    transition-duration:0.5s;
+    opacity: 0.8;
+}
+.check{
+	background: green;
+}
+
+.footer {
+	margin-left: 290px;
+	color: white;
+}
+.sub-footer{
+	background: grey;
+	opacity: 0.9;
+	display: flex;
+	height: 60px;
+}
+
+.sub-footer img{
+     margin-left: 50px;
+}
