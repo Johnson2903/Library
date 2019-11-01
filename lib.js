@@ -1,8 +1,8 @@
 
 function myAdd(){
-	if (firstone.value || secondone.value || thirdone.value=="" ) {
+	if (firstone.value=="" || secondone.value=="" || thirdone.value=="" ) {
 alert("THe space must not be empty");
-console.log("THe place must not be empty");
+// console.log("THe place must not be empty");
 	}
 
 
@@ -12,6 +12,7 @@ console.log("THe place must not be empty");
 		BookName :firstone.value,
 		AuthorName:secondone.value,
 		PagesofBook: thirdone.value
+		// files: fourthone.value
 	}
 
 	myarr.push(Myobj)
@@ -25,7 +26,8 @@ function myview(){
 	var res = '';
 	for (var i = 0; i< u.length; i++) {
 		var y="<td>" + u[i].BookName+"</td>" +"<td>"+ u[i].AuthorName+"</td>" +
-		 "<td>"+ u[i].PagesofBook+"</td>"
+		 "<td>"+ u[i].PagesofBook+"</td>" 
+		 // + "<td>"+ u[i].files+"</td>"
 		var at="<tr>" +y+"</tr>"
  
 	res+=at;

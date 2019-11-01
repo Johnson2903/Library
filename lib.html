@@ -6,6 +6,8 @@
 	<script type="text/javascript" src="lib.js"></script>
 </head>
 <body>
+	<div class="everything">
+		<br><br>
 	<div>
 		<h1>BOOK LIBRARY</h1>
 	</div>
@@ -18,9 +20,10 @@
 	<input type="text" id="secondone"  required="required"><br><br>
 	Pages of Book: <br>
 	<input type="text" id="thirdone" required="required"><br><br>
+	<br>
+		upload book here, must be in PDF format<br>
 		<input type="file" id="fourthone" required="required">
-		<br>
-		upload book here, must be in PDF format
+		
 		<br><br>
 	<button onclick="myAdd()" onmouseout="myclean()">Add Book</button>
 </div>
@@ -32,6 +35,7 @@
 		<th> Book Name </th>
 		<th> Author Name </th>
 		<th> Pages</th>
+		<th>Files</th>
 	</tr>
 	</thead>
 	<tbody id="tt">
@@ -56,6 +60,6 @@
 <div class="footer">
 <h4>Developed by Johnson &copy 2019</h4>
 </div>
-
+</div>
 </body>
 </html>
